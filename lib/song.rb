@@ -37,6 +37,10 @@ class Song
     end
     results
   end
+
+  def self.artist_count
+    
+  end
 end
 
 give_up = Song.new("quitting", "Big Mo", "sad")
