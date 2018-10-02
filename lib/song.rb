@@ -7,3 +7,5 @@ class Song
     @genre = genre
   end
 end
+
+give_up = Song.new("quitting", "Big Mo", "sad")
