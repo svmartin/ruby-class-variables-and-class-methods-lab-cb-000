@@ -25,6 +25,10 @@ class Song
   def self.artists
     @@artists.unique
   end
+
+  def self.genre_count
+    
+  end
 end
 
 give_up = Song.new("quitting", "Big Mo", "sad")
