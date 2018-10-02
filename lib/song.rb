@@ -9,3 +9,6 @@ class Song
 end
 
 give_up = Song.new("quitting", "Big Mo", "sad")
+p give_up.name
+p give_up.artist
+p give_up.genre
